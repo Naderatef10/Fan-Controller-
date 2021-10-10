@@ -1,0 +1,31 @@
+#include "motor.h"
+#include "gpio.h"
+
+
+void DcMotor_Init(void){
+
+GPIO_setupPinDirection( MOTOR_PORT,INPUT1_PIN,PIN_INPUT);
+GPIO_setupPinDirection( MOTOR_PORT,INPUT1_PIN,PIN_INPUT);
+GPIO_setupPinDirection( MOTOR_PORT,ENABLE_PIN,PIN_OUTPUT);
+
+
+
+
+
+
+
+}
+void DcMotor_Rotate(DcMotor_State state,uint8 speed){
+
+
+
+
+
+
+
+
+
+
+
+
+}
